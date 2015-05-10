@@ -1,7 +1,5 @@
 Rails.application.routes.draw do
   resources :posts
-  resources :sanphams
-  resources :users
   
   get 'static_pages/home'
 

@@ -13,29 +13,5 @@
 
 ActiveRecord::Schema.define(version: 20150507190357) do
 
-  create_table "san_phams", force: :cascade do |t|
-    t.string   "MaMatHang"
-    t.string   "TenSP"
-    t.string   "HinhAnh"
-    t.string   "DonViTinh"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "sanphams", force: :cascade do |t|
-    t.string   "MaMatHang"
-    t.string   "TenSP"
-    t.string   "HinhAnh"
-    t.string   "DonViTinh"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "users", force: :cascade do |t|
-    t.string   "name"
-    t.string   "email"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
 
 end

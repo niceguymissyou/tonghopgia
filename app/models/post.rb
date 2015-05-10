@@ -3,4 +3,5 @@ class Post
   field :title, type: String
   field :body, type: String
   field :starred, type: Mongoid::Boolean
+
 end
