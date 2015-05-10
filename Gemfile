@@ -5,6 +5,10 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.1'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+# Use mongoDB as the database 
+gem 'mongoid', '~> 4', github: 'mongoid/mongoid'
+gem 'bson_ext'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
